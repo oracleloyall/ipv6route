@@ -1,0 +1,13 @@
+unreachable ::/96 dev lo metric 1024 error -113 pref medium
+unreachable ::ffff:0.0.0.0/96 dev lo metric 1024 error -113 pref medium
+unreachable 2002:a00::/24 dev lo metric 1024 error -113 pref medium
+unreachable 2002:7f00::/24 dev lo metric 1024 error -113 pref medium
+unreachable 2002:a9fe::/32 dev lo metric 1024 error -113 pref medium
+unreachable 2002:ac10::/28 dev lo metric 1024 error -113 pref medium
+unreachable 2002:c0a8::/32 dev lo metric 1024 error -113 pref medium
+unreachable 2002:e000::/19 dev lo metric 1024 error -113 pref medium
+2400:a480:aaaa:200::/64 dev ens33 proto kernel metric 100 pref medium
+unreachable 3ffe:ffff::/32 dev lo metric 1024 error -113 pref medium
+fe80::/64 dev ens33 proto kernel metric 100 pref medium
+fe80::/64 dev ens33 proto kernel metric 256 pref medium
+default via 2400:a480:aaaa:200::1 dev ens33 proto static metric 100 pref medium
